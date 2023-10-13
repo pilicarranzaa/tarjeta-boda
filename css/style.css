@@ -783,9 +783,14 @@ h1, h2, h3, h4, h5, h6, figure {
   text-align: center;
 }
 
+.fh5co-contact-info p{
+  inline-size: none;
+  margin: 5px auto;
+}
+
 .fh5co-contact-info ul li {
-  padding: 0 0 0 50px;
-  margin: 0 0 30px 0;
+  padding: 0 0 0 10px;
+  margin: 0 0 20px 0;
   list-style: none;
   position: relative;
 }
@@ -800,11 +805,13 @@ form label {
   display: table-cell !important;
   vertical-align: middle;
 }
-#fh5co-header .display-tc h1, #fh5co-header .display-tc h2,
+#fh5co-header .display-tc h1, #fh5co-header .display-tc h2, #fh5co-header .display-tc h3,
 #fh5co-counter .display-tc h1,
 #fh5co-counter .display-tc h2,
+#fh5co-counter .display-tc h3,
 .fh5co-cover .display-tc h1,
-.fh5co-cover .display-tc h2 {
+.fh5co-cover .display-tc h2,
+.fh5co-cover .display-tc h3 {
   margin: 0;
   padding: 0;
   color: white;
@@ -846,6 +853,23 @@ form label {
     font-size: 16px;
   }
 }
+
+#fh5co-header .display-tc h3,
+#fh5co-counter .display-tc h3,
+.fh5co-cover .display-tc h3 {
+  font-size: 20px;
+  line-height: 1;
+  margin-bottom: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+@media screen and (max-width: 480px) {
+  #fh5co-header .display-tc h3,
+  #fh5co-counter .display-tc h3,
+  .fh5co-cover .display-tc h3 {
+    font-size: 14px;
+  }
+}
+
 #fh5co-header .display-tc .btn,
 #fh5co-counter .display-tc .btn,
 .fh5co-cover .display-tc .btn {
@@ -971,7 +995,7 @@ form label {
 #fh5co-couple,
 #fh5co-gallery,
 .fh5co-section {
-  padding: 7em 0;
+  padding: 4em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
@@ -984,7 +1008,7 @@ form label {
   #fh5co-couple,
   #fh5co-gallery,
   .fh5co-section {
-    padding: 3em 0;
+    padding: 2em 0;
   }
 }
 

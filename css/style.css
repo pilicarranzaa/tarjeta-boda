@@ -785,7 +785,15 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .fh5co-contact-info p{
   inline-size: none;
-  margin: 5px auto;
+  margin: 0px auto;
+}
+
+.efectivo {
+  font-size: 16px;
+}
+
+.formulario div{
+height:max-content;
 }
 
 .fh5co-contact-info ul li {

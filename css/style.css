@@ -238,24 +238,10 @@ h1, h2, h3, h4, h5, h6, figure {
   background-repeat: no-repeat;
 }
 
-.contenido{
-  background-position:top right,bottom left;
-  background-size:auto, auto;
-  position: relative;
-  background-repeat: no-repeat;
-}
-
 @media screen and (max-width: 768px) {
-  .contenido {
-    background-size:70%, 70%;
+  .fh5co-bg {
+    background-size:auto, 70%, 70%, cover;
   }
-}
-
-.pie-de-pagina{
-  background-position: bottom center;
-  background-size:contain;
-  position: relative;
-  background-repeat: no-repeat;
 }
 
 .fh5co-cover {

@@ -20,8 +20,7 @@ body {
   font-size: 16px;
   line-height: 1.7;
   color: #000000;
-  background-image: url("/wedding/images/tapiz1.png");
-  text-shadow: 2px 2px 4px #ffffff;
+  text-shadow: 0px 0px 10px #ffffff;
 }
 
 #page {
@@ -69,7 +68,7 @@ p {
 }
 
 hr {
-  border-top: 1px solid #000;
+  border-top: 1.5px solid #000;
 }
 
 h1, h2, h3, h4, h5, h6, figure {
@@ -137,13 +136,14 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 14px;
   padding: 30px 10px;
   text-transform: uppercase;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgb(0, 0, 0);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 .fh5co-nav ul li a:hover, .fh5co-nav ul li a:focus, .fh5co-nav ul li a:active {
   color: rgb(0, 0, 0);
+  text-shadow: 0px 0px 10px black;
 }
 .fh5co-nav ul li.has-dropdown {
   position: relative;
@@ -202,7 +202,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #000;
 }
 .fh5co-nav ul li.has-dropdown:hover a, .fh5co-nav ul li.has-dropdown:focus a {
-  color: #fff;
+  color: #000000;
 }
 .fh5co-nav ul li.btn-cta a {
   color: #5c4a52;
@@ -233,6 +233,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 
 .fh5co-bg {
+  background-image: url(images/solopiedepag.png), url(images/solofotosDER.png), url(images/solofotosIZQ.png), url(images/fondocompleto.png);
   background-position: bottom, top right, bottom 550px left, top center;
   background-size:auto, auto, auto, cover;
   position: relative;
@@ -560,7 +561,7 @@ form label {
 #fh5co-header .display-tc h1,
 .fh5co-cover .display-tc h1 {
   margin-bottom: 0px;
-  font-size: 70px;
+  font-size: 80px;
   line-height: 1.5;
   font-family: 'Great Vibes', cursive;
 }
@@ -581,7 +582,7 @@ form label {
   font-size: 25px;
   line-height: 1.5;
   margin-bottom: 25px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Open Sans', sans-serif;
 }
 @media screen and (max-width: 480px) {
   #fh5co-header .display-tc h2,
@@ -769,9 +770,12 @@ form label {
   }
 }
 .fh5co-heading p {
-  font-size: 18px;
+  font-size: 13px;
   line-height: 1.5;
   color: #000000;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
 }
 .fh5co-heading span {
   text-transform: uppercase;
@@ -809,18 +813,18 @@ form label {
   transition: 0.5s;
 }
 #fh5co-started .form-control::-webkit-input-placeholder {
-  color: #fff;
+  color: #010101;
 }
 #fh5co-started .form-control:-moz-placeholder {
   /* Firefox 18- */
-  color: #fff;
+  color: #000000;
 }
 #fh5co-started .form-control::-moz-placeholder {
   /* Firefox 19+ */
-  color: #fff;
+  color: #000000;
 }
 #fh5co-started .form-control:-ms-input-placeholder {
-  color: #fff;
+  color: #000000;
 }
 #fh5co-started .form-control:focus {
   background: rgba(255, 255, 255, 0.3);
@@ -829,7 +833,7 @@ form label {
   height: 54px;
   border: none !important;
   background: #5c4a52;
-  color: #fff;
+  color: #000000;
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 400;

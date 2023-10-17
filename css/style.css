@@ -21,6 +21,7 @@ body {
   line-height: 1.7;
   color: #000000;
   background-image: url("/wedding/images/tapiz1.png");
+  text-shadow: 2px 2px 4px #ffffff;
 }
 
 #page {

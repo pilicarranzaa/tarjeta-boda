@@ -232,7 +232,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 
 .fh5co-bg {
-  background-position: bottom, top right, bottom 500px left, top center;
+  background-position: bottom, top right, bottom 550px left, top center;
   background-size:auto, auto, auto, cover;
   position: relative;
   background-repeat: no-repeat;
@@ -240,6 +240,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 @media screen and (max-width: 768px) {
   .fh5co-bg {
+    background-position: bottom, top right, bottom 1100px left, top center;
     background-size:auto, 70%, 70%, cover;
   }
 }

@@ -1194,7 +1194,7 @@ form label {
   padding: 18px 36px !important;
 }
 .btn:hover, .btn:active, .btn:focus {
-  box-shadow: none !important;
+  background-color: rgba(119, 79, 35, 0.8) !important;
   outline: none !important;
 }
 

@@ -314,7 +314,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-event .display-t,
 #fh5co-event .display-tc {
-  height: 700px;
+  height: 650px;
   display: table;
   width: 100%;
 }
@@ -523,13 +523,22 @@ h1, h2, h3, h4, h5, h6, figure {
   text-align: center;
 }
 
+.fh5co-contact-info h3{
+  text-align: center;
+  text-transform: uppercase;
+  inline-size: none;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
 .fh5co-contact-info p{
   inline-size: none;
   margin: 0px auto;
+  font-size: 14px;
 }
 
 .efectivo {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .formulario div{
@@ -647,7 +656,7 @@ form label {
   display: inline-block;
   width: 100px;
   height: 100px;
-  background: rgba(133, 110, 120, 0.8);
+  background: rgba(180, 119, 54, 0.8);
   margin: 0 4px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -662,7 +671,7 @@ form label {
     transform: scale(1);
   }
   50% {
-    transform: scale(1.05);
+    transform: scale(0.95);
   }
   100% {
     transform: scale(1);
@@ -787,11 +796,48 @@ form label {
 .fh5co-heading p {
   font-size: 13px;
   text-transform: uppercase;
-  line-height: 1.5;
+  line-height: 1.7;
   color: #000000;
   letter-spacing: 2px;
   font-weight: 600;
 }
+
+.fh5co-heading h3 {
+  font-size: 30px;
+  text-transform: uppercase;
+  line-height: 1;
+  color: #000000;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
+.fh5co-heading h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  line-height: 1;
+  color: #000000;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
+.fh5co-heading h5 {
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 1.7;
+  color: #000000;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.fh5co-heading h5,.location {
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 1.7;
+  color: #000000;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
 .fh5co-heading span {
   font-size: 13px;
   letter-spacing: 2px;
@@ -875,8 +921,10 @@ form label {
     text-align: center;
   }
 }
-#fh5co-footer .copyright .block {
+.block {
   display: block;
+  font-size: 13px;
+  color: #292929;
 }
 
 .owl-carousel .owl-controls .owl-dot span {
@@ -897,12 +945,14 @@ form label {
   position: absolute;
   z-index: 1901;
   width: 270px;
-  background: black;
+  background: rgb(255, 255, 255);
+  background-image: url(/images/fondocompleto.png);
+  background-position: center;
   top: 0;
   right: 0;
   top: 0;
   bottom: 0;
-  padding: 45px 40px 40px 40px;
+  padding: 70px 20px 0px 20px;
   overflow-y: auto;
   -moz-transform: translateX(270px);
   -webkit-transform: translateX(270px);
@@ -921,10 +971,12 @@ form label {
   transform: translateX(0px);
 }
 #fh5co-offcanvas a {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.8);
+  line-height: 2;
 }
 #fh5co-offcanvas a:hover {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.8);
+  text-shadow: 0px 0px 10px black;
 }
 #fh5co-offcanvas ul {
   padding: 0;
@@ -1099,7 +1151,7 @@ form label {
 
 .fh5co-nav-toggle {
   position: absolute;
-  right: 0px;
+  right: 20px;
   top: 10px;
   z-index: 21;
   padding: 6px 0 0 0;
@@ -1118,12 +1170,14 @@ form label {
 }
 
 .btn {
+  background: rgba(180, 119, 54, 0.8);
   margin-right: 4px;
   margin-bottom: 4px;
   font-family: 'Open Sans', sans-serif;
+  letter-spacing: 2px;
   text-transform: uppercase;
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 20px;
+  font-weight: 600;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;

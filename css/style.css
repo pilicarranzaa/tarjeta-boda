@@ -96,6 +96,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .fh5co-nav {
   position: absolute;
+  text-wrap: nowrap;
   top: 0;
   margin: 0;
   padding: 0;
@@ -253,6 +254,38 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 
+.fh5co-bg-contact {
+  background-image: url(/images/solopiedepag.png), url(/images/paperplane2.png), url(/images/fondocompleto.png);
+  background-position: bottom, center left, top center;
+  background-size:auto, 100%, cover;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+  .fh5co-bg-contact {
+    background-image: url(/images/solopiedepag.png), url(/images/fondocompleto.png);
+    background-position: bottom, top center;
+    background-size:auto, cover;
+  }
+}
+
+.fh5co-bg-gallery {
+  background-image: url(/images/solopiedepag.png), url(/images/fondocompleto.png);
+  background-position: bottom, top center;
+  background-size:auto, cover;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+  .fh5co-bg-gallery {
+    background-image: url(/images/solopiedepag.png), url(/images/fondocompleto.png);
+    background-position: bottom, top center;
+    background-size:auto, cover;
+  }
+}
+
 .fh5co-cover {
   height: 900px;
   background-size: cover;
@@ -308,6 +341,12 @@ h1, h2, h3, h4, h5, h6, figure {
   .fh5co-cover.fh5co-cover-sm .display-tc {
     height: 400px;
   }
+}
+
+@media screen and (max-width: 768px) {
+  .fh5co-cover {
+    background-image:url(/images/Fotoencabezado2.png) !important;
+}
 }
 
 #fh5co-event {
@@ -418,7 +457,16 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 0;
   margin: 0;
   width: 100%;
+  opacity: 0.8;
 }
+
+#fh5co-gallery-list h2 {
+  background-color: #fff;
+  width:100%;
+  opacity: 0.8;
+  box-shadow: 0 0 10px 10px #ffffff
+}
+
 #fh5co-gallery-list li {
   display: block;
   padding: 0;
@@ -436,6 +484,7 @@ h1, h2, h3, h4, h5, h6, figure {
   -ms-border-radius: 7px;
   border-radius: 7px;
 }
+
 @media screen and (max-width: 480px) {
   #fh5co-gallery-list li {
     margin-left: 0;
@@ -447,6 +496,8 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
   width: 100%;
   display: block;
+  text-transform: uppercase;
+  text-align: center;
 }
 #fh5co-gallery-list li a:before {
   position: absolute;
@@ -485,7 +536,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-gallery-list li a .case-studies-summary span {
   letter-spacing: 2px;
-  font-size: 13px;
+  font-size: 12px;
   color: rgba(255, 255, 255, 0.7);
 }
 #fh5co-gallery-list li a .case-studies-summary h2 {
@@ -1235,6 +1286,7 @@ form label {
   position: relative;
   width: 100%;
   border: none;
+  opacity: 0.8;
 }
 
 .w-100 {

@@ -1,5 +1,5 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@100;200;300;400&family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes:wght@100;200;300;400;500;600&family=Montserrat:wght@100;200;300;400;500;600&family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap');
 
 @font-face {
   font-family: 'icomoon';
@@ -116,6 +116,13 @@ h1, h2, h3, h4, h5, h6, figure {
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 768px) {
+  #fh5co-logo img{
+    height: 45px;
+  }
+}
+
 .fh5co-nav a {
   padding: 5px 10px;
   color: #000000;
@@ -248,9 +255,36 @@ h1, h2, h3, h4, h5, h6, figure {
 
 @media screen and (max-width: 768px) {
   .fh5co-bg {
-    background-image: url(/images/solopiedepag.png), url(/images/fondocompleto.png);
-    background-position: bottom, top center;
-    background-size:auto, cover;
+  background-image: url(/images/solopiedepag.png), url(/images/solofotosDERclaro.png), url(/images/solofotosIZQclaro.png), url(/images/fondocompleto.png);
+  background-position: bottom, top 100px right, bottom 1050px left, top center;
+  background-size:auto, 70%, 70%, cover;
+  position: relative;
+  background-repeat: no-repeat;
+  }
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  width: 100%;
+  height: 300px;
+  display: block;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  width: 100%;
+  height: 300px;
+}
+
+.gmap_iframe {
+  height: 300px !important;
+}
+
+@media screen and (max-width: 768px) {
+  .mapouter{
+  display: none;
   }
 }
 
@@ -344,8 +378,20 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 @media screen and (max-width: 768px) {
-  .fh5co-cover {
-    background-image:url(/images/Fotoencabezado2.png) !important;
+  .cover-index {
+    background-image:url(/images/Fotoencabezado2-responsive.png) !important;
+}
+}
+
+@media screen and (max-width: 768px) {
+  .cover-contact {
+    background-image:url(/images/encabezadoasistencia-responsive.png) !important;
+}
+}
+
+@media screen and (max-width: 768px) {
+  .cover-gallery {
+    background-image:url(/images/fondofotosencabezado-responsive.png) !important;
 }
 }
 
@@ -637,15 +683,17 @@ form label {
 @media screen and (max-width: 768px) {
   #fh5co-header .display-tc h1,
   .fh5co-cover .display-tc h1 {
-    font-size: 50px;
+    font-size: 70px;
     line-height: normal;
+    text-shadow: 0px 0px 1px rgb(0, 0, 0);
   }
 }
 @media screen and (max-width: 480px) {
   #fh5co-header .display-tc h1,
   .fh5co-cover .display-tc h1 {
-    font-size: 40px;
+    font-size: 45px;
     line-height: normal;
+    text-shadow: 0px 0px 1px rgb(0, 0, 0);
   }
 }
 #fh5co-header .display-tc h2,
@@ -655,12 +703,14 @@ form label {
   margin-bottom: 25px;
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
+  text-shadow: 0px 0px 1px rgb(0, 0, 0);
 }
 @media screen and (max-width: 768px) {
   #fh5co-header .display-tc h2,
   .fh5co-cover .display-tc h2 {
     font-size: 18px;
     line-height: normal;
+    text-shadow: 0px 0.5px 1px rgb(0, 0, 0);
   }
 }
 
@@ -669,6 +719,7 @@ form label {
   .fh5co-cover .display-tc h2 {
     font-size: 15px;
     line-height: normal;
+    text-shadow: 0px 0.5px 1px rgb(0, 0, 0);
   }
 }
 
@@ -869,6 +920,15 @@ form label {
   font-weight: 400;
 }
 
+@media screen and (max-width: 768px) {
+  .fh5co-heading h3 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+}
+
+
+
 .fh5co-heading h4 {
   font-size: 20px;
   text-transform: uppercase;
@@ -876,6 +936,13 @@ form label {
   color: #000000;
   letter-spacing: 2px;
   font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+  .fh5co-heading h4 {
+    font-size: 20px;
+    font-weight: 600;
+  }
 }
 
 .fh5co-heading h5 {
@@ -1284,9 +1351,16 @@ form label {
 
 .responsive-iframe {
   position: relative;
-  width: 100%;
   border: none;
   opacity: 0.8;
+  width:100%;
+  height:1550px; 
+}
+
+@media screen and (max-width: 768px) {
+  .responsive-iframe {
+    height:1600px; 
+  }
 }
 
 .w-100 {

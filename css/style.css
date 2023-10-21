@@ -1373,6 +1373,7 @@ form label {
   display: none;
   font-size: 60px;
   color: #000000;
+  align-items: center;
   font-variation-settings:
   'FILL' 0,
   'wght' 400,

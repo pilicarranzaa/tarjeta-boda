@@ -256,7 +256,7 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 768px) {
   .fh5co-bg {
   background-image: url(/images/solopiedepag.png), url(/images/solofotosDERclaro.png), url(/images/solofotosIZQclaro.png), url(/images/fondocompleto.png);
-  background-position: bottom, top 100px right, bottom 1050px left, top center;
+  background-position: bottom, top 100px right, bottom 900px left, top center;
   background-size:auto, 70%, 70%, cover;
   position: relative;
   background-repeat: no-repeat;
@@ -1176,7 +1176,7 @@ form label {
   width: 50px;
   height: 50px;
   display: table;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(93, 67, 16, 0.4);
   color: #000000;
   text-align: center;
   -webkit-border-radius: 4px;
